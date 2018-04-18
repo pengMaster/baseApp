@@ -1,0 +1,3 @@
+apply from: rootProject.file('cc-settings.gradle')
+apply from: rootProject.file('library.gradle')
+

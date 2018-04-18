@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--tools:context 用于关联activity查看布局所见即所得的效果，不会被打入包中-->
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/act_main_vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray_b" />
+
+    <include layout="@layout/main_layout_footer" />
+
+</com.zhy.autolayout.AutoLinearLayout>

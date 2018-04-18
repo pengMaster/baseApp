@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#f4f4f4"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <include
+        android:id="@+id/layout_3line_title"
+        layout="@layout/include_title_bar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_3line_title"
+        android:orientation="horizontal">
+        
+        <RelativeLayout
+            android:id="@+id/layout_pop_3ling_left_rl"
+            android:layout_width="10dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/bg_white_gray">
+
+            <TextView
+                android:id="@+id/layout_top_left_tv"
+                style="@style/pop_3ling_top_tv"
+                android:text="地市" />
+
+            <ListView
+                android:id="@+id/layout_pop_3ling_left_lv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/layout_top_left_tv"
+                android:background="@color/white"
+                android:divider="@color/gray_e"
+                android:fadingEdge="none"  
+                android:dividerHeight="1dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_pop_3ling_mid_rl"
+            android:layout_width="10dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/bg_white_gray">
+
+            <TextView
+                android:id="@+id/layout_top_mid_tv"
+                style="@style/pop_3ling_top_tv"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:text="区县" />
+
+            <ListView
+                android:id="@+id/layout_pop_3ling_mid_lv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/layout_top_mid_tv"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@color/white"
+                android:divider="@color/gray_e"
+                android:fadingEdge="none"  
+                android:dividerHeight="1dp" />
+
+            <include layout="@layout/layout_loading_view" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_pop_3ling_right_rl"
+            android:layout_width="10dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/bg_white_gray">
+
+            <TextView
+                android:id="@+id/layout_top_right_tv"
+                style="@style/pop_3ling_top_tv"
+                android:text="街道" />
+
+            <ListView
+                android:id="@+id/layout_pop_3ling_right_lv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/layout_top_right_tv"
+                android:background="@color/white"
+                android:divider="@color/gray_e"
+                android:fadingEdge="none"  
+                android:dividerHeight="1dp" />
+
+            <include layout="@layout/layout_loading_view" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

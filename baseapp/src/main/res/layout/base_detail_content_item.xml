@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:layout_marginTop="10px"
+android:background="#ECF0F7">
+
+
+<TextView
+    android:id="@+id/mTv_item_lift"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:textColor="@color/blackAA"
+    android:layout_marginTop="10px"
+    android:textSize="@dimen/content_nn"
+    android:text="预约对象："/>
+
+<TextView
+    android:id="@+id/mTv_item_right"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/mTv_title"
+    android:layout_toEndOf="@+id/mTv_item_lift"
+    android:layout_marginStart="40px"
+    android:textSize="@dimen/content_nn"
+    android:layout_centerVertical="true"
+    android:textColor="@color/gray_b"
+    android:text="张三丰"/>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

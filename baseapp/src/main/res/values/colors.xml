@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--color name="background_grey">#DBDBDB</color-->
+    <color name="background_grey">#EFF3F7</color>
+
+    <!--主题色-->
+    <color name="main_color">#215DA9</color>
+    <color name="main_less_color">#d665a4f2</color>
+    <color name="status_bar_color">#1256ac</color>
+
+    <!-- main -->
+    <color name="white">#FFFFFF</color>
+    <color name="whiteEE">#EEEEEE</color>
+    <color name="black">#000000</color>
+    <color name="black_45">#45000000</color>
+    <color name="grays">#EEEEEE</color>
+    <color name="transparent">#00000000</color>
+    <color name="green_less_table">#49beb3</color>
+    <color name="blue">#5CACEE</color>
+    <color name="blackAA">#AA000000</color>
+    <color name="blue_light">#038a9b</color>
+    <color name="gray">#FFF0F0F0</color>
+    <color name="gray_line">#EDF2F6</color>
+    <color name="home_word_color">#FF8523</color>
+    <color name="dip_gray">#606674</color>
+    <color name="dip_orange">#FEC100</color>
+    <color name="gray_a">#E5E5E5</color>
+    <color name="gray_b">#707070</color>
+    <color name="gray_c">#f4f4f4</color>
+    <color name="gray_d">#6E6E6E</color>
+    <color name="gray_e">#FFF0F0F0</color>
+    <color name="gray_f">#DBDBDB</color>
+    <color name="gray_g">#ECF0F6</color>
+    <color name="main_bg">#6495ED</color>
+    <color name="main_bg_tint">#B1E0FF</color>
+    <color name="main_green_bg">#03919F</color>
+    <color name="main_bg_green_tint">#04CDE1</color>
+    <color name="share_text">#000000</color>
+    <color name="day_blue">#1FC2F3</color>
+    <color name="red">#fc3d39</color>
+    <color name="yellow">#a6973a</color>
+    <color name="shape1">#935df7</color>
+    <color name="shape2">#5EB9F8</color>
+    <color name="shape3">#5CC2F8</color>
+    <color name="gray_white">#ffcccccc</color>
+    <color name="bg_white_gray">#f2f2f2</color>
+    <color name="gray_back_white">#33cccccc</color>
+    <color name="gray_trans">#50000000</color>
+
+    <!-- 统一的字体黑色 -->
+    <color name="textBlack">#373737</color>
+    <color name="textBlackN">#767676</color>
+    <color name="textBlackNN">#C8C8C8</color>
+    <color name="textWhiteEE">#EEEEEE</color>
+    <!-- 提示色 -->
+    <color name="hint_green">#09BB07</color>
+    <color name="hint_green_90">#7009BB07</color>
+    <color name="hint_blue_link">#576b95</color>
+    <color name="hint_blue">#007BFA</color>
+    <color name="hint_rad">#e64340</color>
+    <color name="hint_rad_90">#90e64340</color>
+    <color name="hint_yellow">#fff014</color>
+    <color name="hint_gray">#606674</color>
+    <color name="hint_gray2">#5B5D68</color>
+    <color name="hint_gray3">#232323</color>
+    <color name="hint_gray4">#171717</color>
+    <color name="hint_orange">#FF8247</color>
+
+    <!--透明-->
+    <color name="transparency">#FFFFFFFF</color>
+
+    <color name="tint_orange">#FFC42A</color>
+    <color name="hint_blue_tint">#4A8CFC</color>
+    <color name="alpha_90_black">#E6000000</color>
+    <color name="list_item_title">#0670C8</color><!--listView Item title-->
+</resources>

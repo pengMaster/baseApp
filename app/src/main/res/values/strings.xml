@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">任务分发</string>
+    <string name="str_loading_data">正在加载数据…</string>
+    <string name="login_name_str">用户名</string>
+    <string name="password_str">密  码</string>
+    <string name="sure_str">确定</string>
+    <string name="cancel_str">取消</string>
+    <string name="search_str">搜索</string>
+    <string name="no_login">未登录</string>
+    <string name="sex_str">性别：</string>
+    <string name="chest_number_str">胸牌号：</string>
+    <string name="dept_str">部门：</string>
+    <!-- Home -->
+    <string name="urgency_str">强化应急</string>
+    <string name="overdue_inoculate_str">逾期未接种</string>
+    <string name="into_out_str">出入库</string>
+    <string name="data_sync_str">数据同步</string>
+    <string name="order_str">已预约</string>
+    <string name="order_inoculate">预约接种</string>
+    <string name="person_count_str">人数:</string>
+    <string name="person_count_value_str">112</string>
+    <string name="address_str">地址:</string>
+    <string name="address_value_str">北京朝阳医院</string>
+    <string name="child_inoculate_str">儿童接种</string>
+    <string name="child_code_str">儿童二维码</string>
+    <string name="child_code_hint_str">扫描二维码接种</string>
+    <string name="none_inoculate_str">未接种儿童</string>
+    <string name="none_inoculate_hint_str">未接种   到期接种</string>
+    <string name="arrange_parent_str">约家长接种</string>
+    <string name="arrange_parent_hint_str">查看联系人</string>
+    <string name="new_info_str">: 当前预约人员较多建议稍后预约,了解更多请点击右边栏目</string>
+</resources>

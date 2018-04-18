@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="155px"
+    android:background="@color/background_grey"
+    android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/footer_home_iv"
+            style="@style/main_foot_iv"
+            android:src="@drawable/selector_main_medical_footer_home" />
+
+        <ImageView
+        android:id="@+id/footer_analyze_iv"
+        style="@style/main_foot_iv"
+        android:src="@drawable/selector_main_footer_scan" />
+
+        <ImageView
+            android:id="@+id/footer_my_iv"
+            style="@style/main_foot_iv"
+            android:src="@drawable/selector_main_medical_footer_my" />
+
+</com.zhy.autolayout.AutoLinearLayout>

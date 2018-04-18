@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/shape_entrust_title"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/pop_pro_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_entrust_title"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="@color/hint_orange"
+            android:textSize="@dimen/title_n"
+            tools:text="登录提示" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/hint_orange" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dip"
+                android:paddingRight="5dip"
+                android:paddingTop="5dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="15dip"
+                    android:gravity="left"
+                    android:text="@string/login_name_str"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/textBlack"></TextView>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_backgroud_selector"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/usr_name"
+                        android:text="340163"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:autoText="false"
+                        android:background="@null"
+                        android:capitalize="none"
+                        android:textAppearance="?android:attr/textAppearanceMedium" >
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dip"
+                android:paddingRight="5dip"
+                android:paddingTop="5dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="15dip"
+                    android:gravity="left"
+                    android:text="密　码"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/textBlack" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_backgroud_selector"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/usr_pwd"
+                        android:text="mtm2015.cn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:autoText="false"
+                        android:background="@null"
+                        android:capitalize="none"
+                        android:password="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"></EditText>
+
+                    <ToggleButton
+                        android:id="@+id/button_visib"
+                        android:layout_width="23dip"
+                        android:layout_height="23dip"
+                        android:background="@drawable/ic_hide"
+                        android:textOff=""
+                        android:textOn="" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_btn_gray_bg"
+                android:text="@string/sure_str"
+                android:textColor="@color/textBlack" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_btn_gray_bg"
+                android:text="@string/cancel_str"
+                android:textColor="@color/textBlack" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

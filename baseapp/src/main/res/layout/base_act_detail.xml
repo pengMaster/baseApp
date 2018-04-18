@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:ignore="PxUsage,HardcodedText">
+
+<com.zhy.autolayout.AutoRelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20px"
+    android:layout_marginEnd="20px"
+    android:background="@drawable/shape_ring_gray_30">
+
+    <TextView
+        android:id="@+id/mTv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blackAA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20px"
+        android:textSize="@dimen/content_title"
+        android:text="预约接种"
+        />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/mLl_content"
+        android:layout_marginTop="20px"
+        android:layout_below="@+id/mTv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginBottom="20px"
+        android:orientation="vertical">
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <ImageView
+        android:id="@+id/mImg_cancel"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20px"
+        android:layout_marginEnd="20px"
+        android:src="@drawable/ic_cancel"/>
+    <Button
+        android:id="@+id/base_finish_btn"
+        android:layout_width="500px"
+        android:layout_height="90px"
+        android:layout_centerHorizontal="true"
+        android:background="@color/home_word_color"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="40px"
+        android:layout_below="@+id/mLl_content"
+        android:text="出库"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_nn"
+        />
+
+</com.zhy.autolayout.AutoRelativeLayout>
+
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

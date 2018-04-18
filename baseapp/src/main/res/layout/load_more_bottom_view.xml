@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:loading="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loading_layout"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:background="#50FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+   >
+
+    <com.mtm.widget.loading.LoadingView
+        android:id="@+id/view_1"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:padding="10dip"
+        loading:inner_color="#ffffff"
+        loading:inner_rotating_speed="3"
+        loading:inner_width="3dip"
+        loading:mode="arc"
+        android:layout_centerVertical="true"
+        loading:outer_color="@color/main_color"
+        loading:outer_width="3dip" />
+
+    <TextView
+        android:layout_toRightOf="@+id/view_1"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正在加载数据...."
+        android:textSize="@dimen/content_nn"
+        android:textColor="@color/main_color" />
+
+</RelativeLayout>
